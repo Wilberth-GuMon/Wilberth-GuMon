@@ -1,7 +1,7 @@
 # Hi there, I'm Wilberth 👋
 ### **RTL Design & Verification Engineer**
 
-📍 **Location:** Costa Rica | 📧 **Email:** wilberthgutierrez020502@gmail.com | 💼 **LinkedIn:** [Wilberth Gutierrez Montero](www.linkedin.com/in/wilberth-gutierrezm) |
+📍 **Location:** Costa Rica | 📧 **Email:** wilberthgutierrez020502@gmail.com | 💼 **LinkedIn:** www.linkedin.com/in/wilberth-gutierrezm |
 
 ---
 
