@@ -21,6 +21,8 @@
 
 #### 🤖 I developed these projects from scratch (excluding university research projects); however, all the code was reviewed using AI to obtain feedback (excluding university research projects), as well as to expedite debugging and the generation of documentation. All changes and corrections made to the code based on AI suggestions (Claude Opus 5.5) are documented via comments that include the tag [AI Feedback]. 🤖
 
+#### 🔒 This portfolio does not include projects related to past or current employment due to confidentiality. 🔒
+
 ## 💻 RTL Design Projects
 
 ### 🔹 1. [RTL/SystemVerilog] [RISC-V RV32I-Zicsr Multicycle Processor Standardization (Siwa MCU Core)]
