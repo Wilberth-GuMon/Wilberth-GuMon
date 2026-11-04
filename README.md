@@ -1,7 +1,7 @@
 # Hi! I'm Wilberth Gutiérrez Montero 😄
 #### I am an **Electronics Engineer** specializing in **RTL Design**, **SystemVerilog/UVM Functional Verification**, and **SoC Architecture**. My focus is on designing efficient hardware modules and building robust, scalable verification environments to ensure bug-free silicon and high-reliability digital systems.
 
-📍 **Location:** Costa Rica | 📧 **Email:** wilberthgutierrez020502@gmail.com | 💼 **LinkedIn:** www.linkedin.com/in/wilberth-gutierrezm |
+📍 **Location:** Costa Rica | 📧 **Email**: wilberthgutierrez020502@gmail.com | 💼 [LinkedIn](https://www.linkedin.com/in/wilberth-gutierrezm/) |
 
 <br>
 
@@ -59,7 +59,7 @@
   - **3. Ethernet RX parser with parallel CRC-32 (AXI-Stream, 64-bit):** Three-block FSM with registered Moore outputs, VLAN/PCP extraction without latches, and runt detection. The FCS check compares a lookahead parallel CRC against the chained baseline, with the **Fmax/area trade-off measured, not asserted**. Skid buffers break the `tready` path. *Planned.*
   - **4. 4×4 fabric with VOQ, linked-list shared buffer, and iSLIP:** Cell-based shared memory (free list, next-pointer RAM, per-VOQ head/tail/count), iterative matching arbiter, and one-hot crossbar. Switchable to an input-FIFO mode to **reproduce the classic head-of-line blocking throughput gap** against VOQ+iSLIP. *Planned.*
   - **5. QoS egress port:** Eight-class strict-priority + deficit round-robin scheduler counting bytes, fixed-point token-bucket shaper, full Priority Flow Control (hysteresis generation, per-priority pause timers, watchdog), credit interface to the fabric, and a UPF-defined power domain sequenced by an always-on FSM. *Planned.*
-  - 
+
 #### 🔸 Deep dive: Project 1 — CDCKit (RTL) [In Progress]
  
 - **Overview:**
@@ -74,6 +74,8 @@
   - **Synthesis-aware RTL:** Synchronizer flops are protected from retiming and shift-register packing, and the Gray pointer registers from **merging with their binary twins** (identical MSB). That merge is silent and breaks the one-bit-change guarantee the whole FIFO relies on.
   - **Shared package: A single package holds the binary-to-Gray and Gray-to-binary conversions, so both FIFO pointer managers reuse one verified implementation and a width or encoding change touches one file.
   - **Embedded SVA:** Bound assertions for single-bit pointer change, no push when full, no pop when empty, handshake ordering, and minimum pulse spacing, kept out of the design source.
+ 
+  Project Repository: [Clock Domain Crossing Kit](https://github.com/Wilberth-GuMon/Clock-Domain-Crossing-Kit)
 
 #### 🔸 Deep dive: Project 2 — Statistics CSR block (AXI4-Lite + APB) (RTL) [Planned]
 
