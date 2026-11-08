@@ -1,4 +1,4 @@
-# Hi! I'm Wilberth Gutiérrez Montero 😄
+# Hi! I'm Wilberth Gutiérrez Montero
 #### I am an **Electronics Engineer** specializing in **RTL Design**, **SystemVerilog/UVM Functional Verification**, and **SoC Architecture**. My focus is on designing efficient hardware modules and building robust, scalable verification environments to ensure bug-free silicon and high-reliability digital systems.
 
 📍 **Location:** Costa Rica | 📧 **Email**: wilberthgutierrez020502@gmail.com | 💼 [LinkedIn](https://www.linkedin.com/in/wilberth-gutierrezm/) |
@@ -60,7 +60,7 @@
   - **4. 4×4 fabric with VOQ, linked-list shared buffer, and iSLIP:** Cell-based shared memory (free list, next-pointer RAM, per-VOQ head/tail/count), iterative matching arbiter, and one-hot crossbar. Switchable to an input-FIFO mode to **reproduce the classic head-of-line blocking throughput gap** against VOQ+iSLIP. *Planned.*
   - **5. QoS egress port:** Eight-class strict-priority + deficit round-robin scheduler counting bytes, fixed-point token-bucket shaper, full Priority Flow Control (hysteresis generation, per-priority pause timers, watchdog), credit interface to the fabric, and a UPF-defined power domain sequenced by an always-on FSM. *Planned.*
 
-#### 🔸 Deep dive: Project 1 — CDCKit (RTL) [In Progress]
+#### 🔸 Deep dive: Project 1 — CDCKit (✅Spec - ✅RTL - ⏩Testplan - 🏳️Verification - 🏳️Synthesis - 🏳️Signoff)
  
 - **Overview:**
   A parameterizable library of five clock-domain-crossing primitives (level, reset, pulse, multi-bit word, and streaming FIFO), each matched to the signal class it can cross safely. The design goal was to make **every crossing correct by construction, so that no simulation luck is needed**: the structure itself rules out the failure.
@@ -77,13 +77,13 @@
  
   Project Repository: [Clock Domain Crossing Kit](https://github.com/Wilberth-GuMon/Clock-Domain-Crossing-Kit)
 
-#### 🔸 Deep dive: Project 2 — Statistics CSR block (AXI4-Lite + APB) (RTL) [Planned]
+#### 🔸 Deep dive: Project 2 — Statistics CSR block (AXI4-Lite + APB) (✅Spec - 🏳️RTL - 🏳️Testplan - 🏳️Verification - 🏳️Synthesis - 🏳️Signoff)
 
-#### 🔸 Deep dive: Project 3 — Ethernet RX parser with parallel CRC-32 (AXI-Stream, 64-bit) (RTL) [Planned]
+#### 🔸 Deep dive: Project 3 — Ethernet RX parser with parallel CRC-32 (AXI-Stream, 64-bit) [🏳️Planned]
 
-#### 🔸 Deep dive: Project 4 —  4×4 fabric with VOQ, linked-list shared buffer, and iSLIP (RTL) [Planned]
+#### 🔸 Deep dive: Project 4 —  4×4 fabric with VOQ, linked-list shared buffer, and iSLIP [🏳️Planned]
 
-#### 🔸 Deep dive: Project 5 — QoS egress port (RTL) [Planned]
+#### 🔸 Deep dive: Project 5 — QoS egress port [🏳️Planned]
 
 <br>
 
