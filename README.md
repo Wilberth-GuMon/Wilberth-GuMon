@@ -47,7 +47,7 @@ A parameterizable library of five clock-domain-crossing primitives (level, reset
 #### 💠 Project 2 — Statistics CSR block (AXI4-Lite + APB) (⏩Spec - 🏳️RTL - 🏳️Testplan - 🏳️Verification - 🏳️Synthesis - 🏳️Signoff)
 Slave that decouples AW and W channels and responds only when it holds both. Register types cover RW, hardware RO, W1C interrupts, and clear-on-read without losing a same-cycle event. 64-bit counters are read atomically through a high-half latch, and cross in from their own clock domain through the CDCKit handshake.
  
-📂 Project Repository: [Clock Domain Crossing Kit](https://github.com/Wilberth-GuMon/Clock-Domain-Crossing-Kit)
+📂 Project Repository: [CSR)(AXI-APB)]
 
 #### 💠 Project 3 — Ethernet RX parser with parallel CRC-32 (AXI-Stream, 64-bit) [🏳️Planned]
 Three-block FSM with registered Moore outputs, VLAN/PCP extraction without latches, and runt detection. The FCS check compares a lookahead parallel CRC against the chained baseline, with the **Fmax/area trade-off measured, not asserted**. Skid buffers break the `tready` path.
@@ -102,7 +102,7 @@ Built a UVM 1.2 environment that verifies the standardized core by **comparing m
 
 <br>
 
-### 🟢 4. [UVM/SystemVerilog] [Verification Environment for a UART Communication Protocol)
+### 🟢 4. [UVM/SystemVerilog] [Verification Environment for a UART Communication Protocol]
 
 Built a UVM 1.2 environment for a UART with parallel FIFO interfaces, checking both TX and RX paths end to end under random delays and toggle-focused patterns. Verification exposed **DUT bugs caused by hardcoded signal widths**. I **parameterized the DUT** and revalidated it across **multiple baud rates and FIFO widths** by changing a single `DATA_FIFO` define.
 
